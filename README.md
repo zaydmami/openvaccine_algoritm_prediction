@@ -1,7 +1,7 @@
 # openvaccine_algoritm_prediction
 ce document propose une étude pour la prédiction de la dégradation de l'ARNm du vaccin COVID-19 afin de trouver une séquence stable de cette molécule.
 
-1. Problématique générale du projet.<br>
+	1. Problématique générale du projet.<br>
 Pour gagner le combat contre la pandémie COVID-19, il faudra un vaccin efficace qui
 peut être distribué équitablement et largement. S'appuyant sur des décennies de
 recherche a permis aux scientifiques d'accélérer la recherche d'un vaccin contre le
@@ -22,11 +22,12 @@ Maintenant, nous devons résoudre ce défi scientifique profond en des mois, voi
 semaines, pour accélérer la recherche sur le vaccin à ARNm et fournir un vaccin stable
 au réfrigérateur contre le SRAS-CoV-2, le virus derrière COVID-19.
 
-2. Cadre générale du projet
+	2. Cadre générale du projet <br>
 Les vaccins à ARNm suscitent un intérêt croissant en tant qu'alternatives potentielles
 aux méthodes conventionnelles pour la prévention de plusieurs maladies, y compris
 Covid-19, ce virus n'a besoin d'aucune introduction, il a déjà tué des millions de
 personnes dans le monde.
+	3.But <br> 
 Le but de cette compétition était de prédire, pour chacune des bases (A, C, G ou U) des
 séquences d'ARN fournies, la réactivité et la dégradation dans certaines circonstances
 comme l'incubation avec ou sans magnésium à haute température ou à pH élevé. En
@@ -34,7 +35,7 @@ résumé, nous devons prédire trois valeurs continues (c.-à-d. Régression) po
 des bases de la séquence (c.-à-d. Séquence à séquence).
 Cet article propose et évalue trois modèles d'apprentissage (GRU, CNN et T-SNE)
 comme méthode pour prédire la stabilité / réactivité et le risque de dégradation des séquences d'ARN. 
-1. Description du Dataset
+	4. Description du Dataset <br>
 Kaggle prend en charge divers formats de publication d'ensembles de données, mais elle
 recommande vivement les éditeurs d'ensembles de données à partager leurs données
 dans un format accessible et non propriétaire si possible. Non seulement les formats de
@@ -130,11 +131,8 @@ Un tableau de nombres à virgule flottante. Ces nombres sont utilisés pour
 déterminer la probabilité de dégradation au niveau de la base / liaison après
 incubation avec du magnésium à haute température (50 degrés Celsius).
 *_error_*
-Un tableau de nombres à virgule flottante, les erreurs calculées dans les valeurs
-expérimentales obtenues dans les colonnes de réactivité et deg_ *.
-predicted_loop_typ Types de boucles attribués par bpRNA de la structure Vienna RNAfold 2
-Tableau 1 : Description des attributs de dataset
-1. Outils d’études
+	
+	5. Outils d’études <br>
 a. Python
 Python est un langage orienté objet bénéficiant d’une syntaxe précise et
 efficace, interprété, multi-paradigme et multiplateformes. Il favorise la programmation
