@@ -1,7 +1,7 @@
 # openvaccine_algoritm_prediction
 ce document propose une étude pour la prédiction de la dégradation de l'ARNm du vaccin COVID-19 afin de trouver une séquence stable de cette molécule.
 
-1. Problématique générale du projet
+1. Problématique générale du projet.<br>
 Pour gagner le combat contre la pandémie COVID-19, il faudra un vaccin efficace qui
 peut être distribué équitablement et largement. S'appuyant sur des décennies de
 recherche a permis aux scientifiques d'accélérer la recherche d'un vaccin contre le
