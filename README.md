@@ -30,7 +30,7 @@ Les vaccins à ARNm suscitent un intérêt croissant en tant qu'alternatives pot
 aux méthodes conventionnelles pour la prévention de plusieurs maladies, y compris
 Covid-19, ce virus n'a besoin d'aucune introduction, il a déjà tué des millions de
 personnes dans le monde.
-	3. But 
+	
 Le but de cette compétition était de prédire, pour chacune des bases (A, C, G ou U) des
 séquences d'ARN fournies, la réactivité et la dégradation dans certaines circonstances
 comme l'incubation avec ou sans magnésium à haute température ou à pH élevé. En
@@ -38,7 +38,7 @@ résumé, nous devons prédire trois valeurs continues (c.-à-d. Régression) po
 des bases de la séquence (c.-à-d. Séquence à séquence).
 Cet article propose et évalue trois modèles d'apprentissage (GRU, CNN et T-SNE)
 comme méthode pour prédire la stabilité / réactivité et le risque de dégradation des séquences d'ARN. 
-	4. Description du Dataset.
+	3. Description du Dataset.
 	
 Kaggle prend en charge divers formats de publication d'ensembles de données, mais elle
 recommande vivement les éditeurs d'ensembles de données à partager leurs données
