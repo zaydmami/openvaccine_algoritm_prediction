@@ -38,6 +38,7 @@ résumé, nous devons prédire trois valeurs continues (c.-à-d. Régression) po
 des bases de la séquence (c.-à-d. Séquence à séquence).
 Cet article propose et évalue trois modèles d'apprentissage (GRU, CNN et T-SNE)
 comme méthode pour prédire la stabilité / réactivité et le risque de dégradation des séquences d'ARN. 
+
 	3. Description du Dataset.
 	
 Kaggle prend en charge divers formats de publication d'ensembles de données, mais elle
@@ -138,7 +139,7 @@ déterminer la probabilité de dégradation au niveau de la base / liaison aprè
 incubation avec du magnésium à haute température (50 degrés Celsius).
 *_error_*
 	
-	5. Outils d’études.
+	4. Outils d’études.
 a. Python
 Python est un langage orienté objet bénéficiant d’une syntaxe précise et
 efficace, interprété, multi-paradigme et multiplateformes. Il favorise la programmation
